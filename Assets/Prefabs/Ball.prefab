@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageAngle: 45
   tanThresh: 2
-  tanAdd: 1
+  tanAdd: 2
 --- !u!1 &3871421181649829891
 GameObject:
   m_ObjectHideFlags: 0
