@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 392339194477395196, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_Name
-      value: Protag Ball
+      value: BallProtag
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30,15 +30,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1845507325179887463, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52,11 +52,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2274253264007988456, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
+    - target: {fileID: 2670215589871085332, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 218e8d3318c3b1a44b361df311d4dfbd, type: 3}
-    - target: {fileID: 2274253264007988456, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
+    - target: {fileID: 2670215589871085332, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -66,14 +66,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 392339194477395196, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8326432931086639476}
+      addedObject: {fileID: 7804607244642553171}
   m_SourcePrefab: {fileID: 100100000, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
 --- !u!1 &2804836654491328951 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 392339194477395196, guid: 5487949ac6f87f44b871442bca72b57f, type: 3}
   m_PrefabInstance: {fileID: 2566232070371859787}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8326432931086639476
+--- !u!114 &7804607244642553171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,4 +85,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa359c95bbc1f14cb3efa97c3a01a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
